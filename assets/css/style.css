@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&family=Rufina:wght@700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3{
+    font-family: 'Rufina', serif;
+}
+
+.navbar{
+    font-family: 'Playfair Display', serif;
+}
+
+/* ---------------- */
+/* button color */
+
+.orange{
+    background-color: #ff817e;
+}
+.secondary-clr{
+    background-color: #30383b;
+}
+
+.orange a, .secondary-clr a{
+    text-decoration: none;
+    color: white;
+}
+/* ----------------- */
+
+
+
+/* ---------- */
+/* Banner sec Font */
+.large-60{
+    font-size: 60px;
+}
+
+
+/* ----------- */
+.car-items_wrapper{
+    height: 712px;
+    background-color: #fff9f8;
+}
+
+.car-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
