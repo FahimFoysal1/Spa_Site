@@ -51,3 +51,64 @@ h1, h2, h3{
     justify-content: center;
     height: 100%;
 }
+
+/* ---------carousel------- */
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ff817e !important;
+}  
+
+/* ------------------- */
+.user_details {
+    position: relative;
+    top: -40px;
+    background-color: #ffffff;
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+    height: 171px;
+    transition: all 1s;
+}
+
+.team-card-wrap:hover .social-icons{
+    display: block;
+}
+
+.team-card-wrap:hover .user_details{
+    /* height: 171px; */
+    -webkit-box-shadow: 0px 15px 42px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 15px 42px 0px rgba(0,0,0,0.52);
+    box-shadow: 0px 15px 42px 0px rgba(0, 0, 0, 0.5);
+    top: -60px;
+}
+
+.team-card-wrap:hover .social-icons a{
+    display: block;
+}
+
+.social-icons a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: #30383b;
+    border: 1px solid #30383b;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    display: none;
+    padding: 3px;
+}
+
+.social-icons a:hover{
+    background-color: #ff817e;
+    color: white;
+    border: 0;
+}
+
+
+/* ------ form control */
+
+.form_control{
+    border: 0px 0px 1px 0px solid #ced4da;
+}
