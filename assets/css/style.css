@@ -112,3 +112,50 @@ h1, h2, h3{
 .form_control{
     border: 0px 0px 1px 0px solid #ced4da;
 }
+
+/* --------- */
+.icon-bg{
+    padding: 10px;
+    background-color: #ff817e;
+    border-radius: 50%;
+}
+
+.foot-links ul{
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding: 0 30px;
+}
+
+/*------- footer ------------- */
+
+.social-icons-foot a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-right: 2px solid ;
+}
+
+.social-icons-foot a:last-child{
+    border: none;
+}
+
+.footer{
+    background-color: #fff9f8;
+}
+
+/* ----------------- */
+.top-img {
+    position: absolute;
+    top: -10px;
+    width: 35px;
+}
+
+.a.navbar-brand.nav-margin {
+    margin-right: 20%;
+}
