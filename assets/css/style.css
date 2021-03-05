@@ -182,3 +182,20 @@ li{
     top: 0;
     left: 50%;
 }
+
+/* ------------ */
+
+section#about{
+    position: relative;
+}
+
+.about-img-1, .about-img-2{
+    position: absolute;
+
+} 
+
+.about-img-2{
+    /* fix sizes */
+    top: 50%;
+    right: 50px;
+}
